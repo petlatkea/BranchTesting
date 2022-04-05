@@ -12,4 +12,12 @@ public class Cat extends Animal {
     public boolean eat(String foodType) {
         return true;
     }
+
+    public void showMood(boolean mood) {
+        if(mood) {
+            System.out.println("spinder");
+        } else {
+            System.out.println("hvæser");
+        }
+    }
 }
